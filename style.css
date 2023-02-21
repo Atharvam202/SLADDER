@@ -1,0 +1,490 @@
+html ,
+body {
+    color: rgba(121, 125, 125, 0.963);
+    
+}
+
+.container {
+    display: flex;
+}
+.sent {
+    border: 20px;
+    background-color: azure;
+    color: black;
+} 
+.ms1 {
+    align-self: flex-end;
+    background-color: lawngreen;
+    color: black;
+    width: 400px;
+    border: 20px;
+    margin-left: 200px;
+}
+.ms2 {
+    align-self: flex-end;
+    background-color: white;
+    color: black;
+    width: 400px;
+    border: 20px;
+    
+}
+.ms3 {
+    align-self: flex-end;
+    background-color: lawngreen;
+    color: black;
+    width: 400px;
+    border: 20px;
+    margin-left: 200px;
+}
+.ms4 {
+    align-self: flex-end;
+    background-color: white;
+    color: black;
+    width: 500px;
+    border: 20px;
+    
+}
+.ms5 {
+    align-self: flex-end;
+    background-color: lawngreen;
+    color: black;
+    width: 400px;
+    border: 20px;
+    margin-left: 200px;
+}
+.ms6 {
+    align-self: flex-end;
+    background-color: white;
+    color: black;
+    width: 500px;
+    border: 20px;
+    
+}
+.sent {
+    font-size: 15px;
+
+}
+.p1 {
+    margin-bottom: 10px;
+}
+.p2 {
+    margin-bottom: 10px;
+}
+.p3 {
+    margin-bottom: 10px;
+}
+.p1:hover {
+    background-color: aliceblue;
+    border: 2px solid red;
+    color: black;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+.p2:hover {
+    background-color: aliceblue;
+    border: 2px solid red;
+    color: black;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+.p3:hover {
+    background-color: aliceblue;
+    border: 2px solid red;
+    color: black;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+.mic {
+    display: flex;
+}
+.stared h1 {
+    font-size: 15px;
+    color: black;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.stared h2 {
+    font-size: 15px;
+    color: black;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.imp {
+    border: 20px;
+    border-radius: 10%;
+    background-color: azure;
+}
+.archive img {
+    display: flex;
+    height: 25px;
+    width: 25px;
+    justify-content: space-between;
+    gap: 10px;
+}
+.stared {
+    display: flex;
+    
+    width: 440px;
+}
+.inside img {
+    width: 500px;
+    height: 500px;
+}
+.aside1 img {
+    height: 800px;
+    width: 700px;
+}
+button:hover {
+    background-color: aliceblue;
+    border: 2px solid red;
+    color: black;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+.archives img {
+    height: 25px;
+    width: 25px;
+    justify-content: space-between;
+    gap: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.archives:hover {
+    background-color: aliceblue;
+    border: 2px solid red;
+    color: black;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+.encrypted {
+    border: 10px;
+    border-color: black;
+    background-color: rgb(245, 245, 10);
+    align-self: center;
+    
+    margin: 10px 10px;
+}
+.archivetop img {
+    height: 25px;
+    width: 25px;
+    justify-content: space-between;
+    gap: 10px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.archivetop {
+    background-color: rgba(143, 235, 7, 0.749);
+    color: white;
+    display: flex;
+    height: 60px;
+}
+.archivetop h1 {
+    font-size: 15px;
+    margin-top: 20px;
+}
+.video {
+    background-color: black;
+    height: 600px;
+}
+.video1 video {
+    margin-top: 50px;
+}
+.video video {
+    width: 400px;
+    height: 500px;
+    margin-left: 350px;
+    border: 20px;
+    border-color: white;
+}
+.video1 video:hover {
+    background-color: aliceblue;
+    border: 2px solid red;
+    color: black;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+.cover1 {
+    width: 650px;
+    background-color: black;
+    height: 700px;
+}
+.statusbar:hover {
+    background-color: aliceblue;
+    border: 2px solid red;
+    color: black;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+.aside2 img {
+   
+    width: 700px;
+    height: 700px;
+}
+.statusinfo h1 {
+    font-size: small;
+}
+.statusinfo h2 {
+    font-size: small;
+}
+.statusbar {
+    display: flex;
+    border: 20px;
+    color: white;
+    margin-top: 10px;
+}
+.statusbar img {
+    width: 50px;
+    height: 50px;
+    padding: 0 8px;
+    border-radius: 50%;
+}
+.send:hover {
+    background-color: aliceblue;
+    border: 2px solid red;
+    color: black;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+.send img {
+    height: 25px;
+    width: 25px;
+}
+.mic {
+    margin-left: 10px;
+}
+.send {
+    display: flex;
+    border: 15px;
+    border-color: black;
+    
+}
+.form_control {
+    margin-top: 10px;
+    display: flex;
+    width: 200px;
+
+}
+.form_control:hover {
+    background-color: aliceblue;
+    border: 2px solid red;
+    color: black;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+.archive {
+    display: flex;
+}
+.chat {
+    background-color: blanchedalmond;
+    height: 400px;
+}
+.archive:hover {
+    background-color: aliceblue;
+    border: 2px solid red;
+    color: black;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+.contacts:hover {
+    background-color: aliceblue;
+    border: 2px solid red;
+    color: black;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+.dp:hover {
+    background-color: aliceblue;
+    border: 2px solid red;
+    color: black;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+.brand a {
+    display: flex;
+    color: black;
+    
+}
+.brand :hover {
+    transform: scale(1.3);
+    transition: 0.5s ease-in;
+}
+.archive h1 {
+    margin-left: 15px;
+    font-size: 15px;
+}
+.select {
+    display: flex;
+    border: 20px;
+    gap: 10px;
+}
+.select img {
+    height: 40px;
+    width: 40px;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 50%;
+}
+.aside img {
+    margin-top: 16px;
+    width: 700px;
+    height: 1350px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgba(151, 229, 229, 0.963);
+    width: 400px;
+    
+}
+
+nav ul li {
+    padding: 0 12px;
+    display: flex;
+}
+
+.brand img {
+    width: 50px;
+    height: 50px;
+    padding: 0 8px;
+    border-radius: 50%;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin-top: 5px;
+
+
+}
+.brand1 img {
+    width: 50px;
+    height: 50px;
+    padding: 0 8px;
+    border-radius: 50%;
+}
+
+.brand1 {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    margin-top: 5px;
+
+
+}
+.logo {
+    justify-content: space-between;
+    display: flex;
+    gap: 15px;
+}
+
+
+.logo img {
+   
+    height: 25px;
+    width: 25px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.search  {
+    display: flex;
+    cursor: pointer;
+    border-radius: 30%;
+    gap: 10px;
+    
+}
+.topbar {
+    justify-content: space-between;
+
+}
+.number img {
+    
+    width: 70px;
+    height: 70px;
+    padding: 0 8px;
+    border-radius: 50%;
+    display: flex;
+}
+
+.dp img {
+    width: 70px;
+    height: 70px;
+    padding: 0 8px;
+    border-radius: 50%;
+    display: flex;
+    margin-right: 10px;
+}
+
+.dp {
+    display: flex;
+}
+.number {
+    display: flex;
+}
+.contacts {
+    margin-top: 10px;
+}
+.time h2 {
+    font-size: 15px;
+}
+.number h3 {
+
+    font-size: 15px;
+
+}
+.info{
+    flex-direction: column;
+    font-size: 8px;
+    font-weight: 300;
+    margin-right: 120px;
+}
+.icons {
+    display: flex;
+    gap: 30px;
+}
+.icons img {
+    display: flex;
+    height: 25px;
+    width: 25px;
+    justify-content: space-between;
+    gap: 10px;
+}
+.bio h1 {
+    font-size: 15px;
+}
+.bio h3 {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-right: 250px;
+}
+.bio {
+    display: flex;
+    flex-direction: column;
+}
+.search input {
+    width: 30vw;
+    height: 23px;
+    border-radius: 12px;
+    margin: 5px;
+    padding: 5px;
+}
+button {
+    cursor: pointer;
+    display: flex;
+    height: 25px;
+    width: 40px;
+    border: 2px;
+    margin-top: 9px;
+}
+.search img {
+    display: flex;
+    height: 25px;
+    width: 25px;
+    justify-content: space-between;
+}
